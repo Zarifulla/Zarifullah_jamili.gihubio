@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ef">
+  <head>
+    <link rel="icon" href="./assets/zj.jpg" type="" sizes="16x16">
+    <title>Zarifullah-jamili</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">ظریف الله جمیلی</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">درباره ما</a></li>
+          <li><a href="#experience">تجربه کاری</a></li>
+          <li><a href="#projects">پروژه ها</a></li>
+          <li><a href="#contact">تماس باما</a></li>
+         
+        </ul>
+      </div>
+      <div><img src="./assets/moon.png" alt="my name" id="icons"></div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">ظریف الله جمیلی</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">درباره</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">تجربه کاری</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">پروژه</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">تماس باما</a></li>
+         
+        </div>
+        <div><img src="./assets/moon.png" alt="my name" id="icon"></div>  
+    </nav>
+    
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/z.jpg" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">سلام, من هستم</p>
+        <h1 class="title">ظریف الله جمیلی</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cv_zarifullah jamili.docx')"
+          >
+            CV  دانلود 
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            اطلاعات تماس
+          </button>
+          
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">بیشتر بدانید</p>
+      <h1 class="title">در باره من</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/zz.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>تجربه کاری</h3>
+              <p>دو سال<br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>تحصیلات</h3>
+              <p>لیسانس کار شناس کمپوتر ساینس<br />فارغ از کورس آقا خان  از بخش کمپیوتر</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              من، ظریف‌الله جمیلی، با افتخار در ولایت بغلان، ولسوالی خوست متولد شدم؛
+               سرزمینی که با طبیعت دل‌انگیز و مردم پرتلاشش شناخته می‌شود. از
+               همان کودکی علاقه و اشتیاق فراوانی به دانش و فناوری داشتم و این علاقه مرا به
+               راهی پرچالش اما زیبا هدایت کرد.پس از سپری کردن امتحان کانکور، 
+              توانستم در رشته علوم کامپیوتر دانشگاه بغلان ادامه تحصیل دهم 
+              و اکنون در صنف سوم مشغول به تحصیل هستم. هنوز راهی در پیش دارم 
+              تا بتوانم فارغ‌التحصیل شوم و به رویاهایی که در سر دارم نزدیک‌تر شوم،
+               اما آرزوی من ساختن پلتفرمی است که نه تنها کارکردی عالی 
+              داشته باشد بلکه بتواند افتخاری برای سرزمین عزیزم،
+               بغلان و افغانستان باشد.در مسیر این رویا، 
+              همواره از حمایت و تلاش‌های پدرم بهره‌مند بوده‌ام؛
+               او که با دست‌های پربرکت و دلسوزی بی‌پایانش، 
+              من را به سوی پیشرفت و کامیابی هدایت کرده است. 
+              در دلم انگیزه‌ای جاری است که مرا به جلو می‌برد، 
+              انگیزه‌ای که به لطف همراهی خانواده و به خصوص پدرم، 
+              همواره زنده و پایدار مانده است.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">برسی کنید </p>
+      <h1 class="title">تجربیات مارا</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">مرور اخیر من</p>
+      <h1 class="title">پروژها</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Capture.PNG"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">پروژه اول</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+             گیت‌هاب
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+               نسخه نمایش زنده
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Capture2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">پروژه دوم</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                گیت‌هاب
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+               نسخه نمایش زنده
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Capture3.PNG"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">پروژه سوم</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+               گیت‌هاب
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                نسخه نمایش زنده
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="galari">
+      <img src="./assets/qw.jpg" alt="p">
+      <img src="./assets/zj.jpg" alt="p">
+      <img src="./assets/sx.jpg" alt="p">
+      <img src="./assets/tt.jpg" alt="p">
+      <img src="./assets/fd.jpg" alt="p">
+      <img src="./assets/zz.jpg" alt="p">
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">تماس بگیرید</p>
+      <h1 class="title">با من تماس بگیرید</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+           <li><a href="#about">درباره ما</a></li>
+          <li><a href="#experience">تجربه کاری</a></li>
+          <li><a href="#projects">پروژه ها</a></li>
+          <li><a href="#contact">تماس باما</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>کاپی رایت &#169; 2024 ظریف الله جمیلی. تمام حقوق محفوظ است.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
